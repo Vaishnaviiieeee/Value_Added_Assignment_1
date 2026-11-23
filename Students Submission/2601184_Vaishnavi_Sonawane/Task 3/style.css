@@ -74,3 +74,52 @@ body {
 .btn-primary:hover {
     background-color: #1d4ed8;
 }
+/* Outline button */
+.btn-outline {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Outline button hover */
+.btn-outline:hover {
+    background-color: #ffffff;
+    color: #111827;
+}
+
+/* Hero section styling */
+.hero {
+    min-height: 480px;
+    padding: 80px 8%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+/* Hero heading */
+.hero-content h1 {
+    font-size: 46px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+/* Hero paragraph */
+.hero-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #e5e7eb;
+    margin-bottom: 28px;
+}
+
+/* Hero buttons */
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
