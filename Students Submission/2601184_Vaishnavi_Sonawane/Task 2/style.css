@@ -82,3 +82,59 @@ body {
     padding-top: 16px;
     border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
+
+/* Main area (takes the remaining space beside the sidebar) */
+.main-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.topbar {
+    background-color: #ffffff;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eceef4;
+}
+
+.topbar h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #111827;
+}
+
+.user-controls {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.bell-icon img {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    display: block;
+}
+
+.profile-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.avatar-img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.caret {
+    font-size: 12px;
+    color: #4b5563;
+}
