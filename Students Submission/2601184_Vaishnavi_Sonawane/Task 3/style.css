@@ -196,3 +196,87 @@ body {
     width: 16px;
     height: 16px;
 }
+/* Destinations section */
+.destinations {
+    padding: 65px 8%;
+}
+
+/* Section heading */
+.section-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+/* Heading text */
+.section-heading h2 {
+    font-size: 28px;
+    color: #111827;
+}
+
+/* Lines beside heading */
+.section-heading .line {
+    width: 50px;
+    height: 3px;
+    background-color: #2563eb;
+    border-radius: 4px;
+}
+/* Destination cards grid */
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+/* Destination card styling */
+.dest-card {
+    height: 320px;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    color: #ffffff;
+}
+
+/* Card footer */
+.card-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* Destination name */
+.card-footer h3 {
+    font-size: 22px;
+    margin-bottom: 6px;
+}
+
+/* Location details */
+.location {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    color: #e5e7eb;
+}
+
+/* Location image */
+.location img {
+    width: 14px;
+    height: 14px;
+}
+
+/* Price label */
+.price-pill {
+    background-color: #2563eb;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 14px;
+    border-radius: 20px;
+}
