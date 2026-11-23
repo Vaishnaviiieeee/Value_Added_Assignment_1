@@ -138,3 +138,41 @@ body {
     font-size: 12px;
     color: #4b5563;
 }
+
+
+.content {
+    padding: 24px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+/* Welcome banner (text and illustration side by side) */
+.banner {
+    background-color: #e9e4fc;
+    border-radius: 16px;
+    padding: 22px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.banner-text h2 {
+    font-size: 26px;
+    font-weight: 800;
+    color: #111827;
+    margin-bottom: 8px;
+}
+
+.banner-text p {
+    font-size: 15px;
+    color: #4b5563;
+}
+
+.banner-art img {
+    width: 210px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
