@@ -1,0 +1,76 @@
+/* Reset the default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    background-color: #f8f9fc;
+    color: #1f2937;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #ffffff;
+    padding: 16px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Logo styling */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #111827;
+}
+
+/* Logo image */
+.logo img {
+    width: 36px;
+    height: 36px;
+}
+
+/* Navigation links */
+.nav-links {
+    display: flex;
+    gap: 28px;
+}
+
+/* Navigation link styling */
+.nav-links a {
+    text-decoration: none;
+    color: #4b5563;
+    font-size: 15px;
+}
+
+/* Active and hover links */
+.nav-links a.active,
+.nav-links a:hover {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+/* Primary button */
+.btn-primary {
+    background-color: #2563eb;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Primary button hover */
+.btn-primary:hover {
+    background-color: #1d4ed8;
+}
